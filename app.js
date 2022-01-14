@@ -81,7 +81,7 @@ function handleContextMenu(event) {
 }
 
 function handleSaveClick () {
-    const image = canvas.toDataURL('image/jpeg');
+    const image = canvas.toDataURL('image/jpeg'); //png => default
     const link = document.createElement('a');
     link.href = image;
     link.download = 'Your Work![🎨]';
