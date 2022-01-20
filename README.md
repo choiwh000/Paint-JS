@@ -1,2 +1,3 @@
-#Paint-JS
+Paint-JS
+
 
